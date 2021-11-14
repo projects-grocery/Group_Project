@@ -1,39 +1,57 @@
-Groceries Management System
+Grocery Management System
 
-FIRST Download
+About:
 
-1.XAMPP
+The Grocery Management System is a web application develop in PHP MySQL database,
+the system it contains of admin to monitor the inventory and check sales update and also the
+admin can create user but limited access, system we have receiving, sales, list of category to
+avoid losses items and maintain stock, the groceries sales and inventory is a friendly user and easy to understand.
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 4 .
+The CURE Grocery Management System will help the business track sales activity easily,
+inventory and to ensure that transactions are completed correctly. With the use of the system,
+the retrieval process will speed up and be able to generate immediate sales and inventory
+reports. The data are being stored in the system’s database. The admin is the only person who can add, edit, and update products and customers while the cashier can only manipulate the collection payments of customers’ purchases.
 
-3.Download the zip file/winrar of "Groceries_Sales_and_Inventory_System"
+By checking in the system, it will be easy to identify the number of available products, which
+products are few, and which is needed to order. These major functions meet the objectives and
+expectations of the proponents likewise to the user of the CURE Grocery Store.
 
-5. Extract the file and copy "Groceries_Sales_and_Inventory_System" folder
+Features:
 
-6.Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs, 
+Admin Dashboard
+Inventory
+Sales
+Receiving
+Category List
+Supplier
+Customer List
+Users
 
-7. Open PHPMyAdmin (http://localhost/phpmyadmin)
 
-8. Create a database with name sales_inventory_db
+Setup:
 
-6. Import sales_inventory_db.sql file(given inside the zip package in SQL file folder)
+1.XAMPP install
 
-7.Run the script http://localhost/Groceries_Sales_and_Inventory_System
+2.Paste the all files in xampp/htdocs/ location
+
+3.Open the xampp run apache and mysql  
+
+4.Run the url in browser http://localhost/phpmyadmin
+
+5.Create a database with name sales_inventory_db
+
+6.Import sales_inventory_db.sql file
+
+7.Run the url in browser localhost/Groceries_Sales_and_Inventory_System
 
 
 **LOGIN DETAILS** 
 
 Cashier
-user: vineet009
-pass: vineet123
-
 user: kuldeep
 pass: kuldeep123
 
 Admin
 user: admin
 pass: admin123
-
-user: yash123
-pass: yash123
 
