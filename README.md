@@ -1,6 +1,7 @@
 ﻿**Grocery Management System**
 
-**About:**
+
+**Overview:**
 
 The Grocery Management System is a web application develop in PHP MySQL database, the system it contains of admin to monitor the inventory and check sales update and also the admin can create user but limited access, system we have receiving, sales, list of category to avoid losses items and maintain stock, the groceries sales and inventory is a friendly user and easy to understand.
 
@@ -53,6 +54,26 @@ Admin
 user: admin
 
 pass: admin123
+
+
+
+**Screenshot:**
+
+
+
+**By:** Group 28
+
+**Members:**
+
+Amit Meena - LIT2019052
+
+Vijay Pratap - LIT2019015
+
+Keshav Kumar - LIT2019055
+
+Vinay Chaudhary - LIT2019041
+
+
 
 
 
