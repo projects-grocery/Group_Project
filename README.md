@@ -57,10 +57,6 @@ pass: admin123
 
 
 
-**Screenshot:**
-
-
-
 **By:** Group 28
 
 **Members:**
