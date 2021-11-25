@@ -56,6 +56,8 @@ user: admin
 pass: admin123
 
 
+** \*\*Also Deploy our project on web host infinityfree\*\ **
+Our Website link http://grocery-database.epizy.com/
 
 **By:** Group 28
 
