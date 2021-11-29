@@ -45,19 +45,19 @@ By checking in the system, it will be easy to identify the number of available p
 
 Cashier
 
-user: kuldeep
+user: cashier
 
-pass: kuldeep123
+password: cashier123
 
 Admin
 
 user: admin
 
-pass: admin123
+password: admin123
 
 
 ** \*\*Also Deploy our project on web host infinityfree\*\ **
-Our Website link http://grocery-database.epizy.com/
+Our Website link http://iiitl-store-automation.epizy.com/
 
 **By:** Group 28
 

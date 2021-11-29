@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Admin | Groceries Sales and Inventory System</title>
- 	
+  <title>Admin | IIITL Store and Purchase Automation System</title>
+ 	<link rel="icon" href="stationary_logo.png"/>
 
 <?php include('./header.php'); ?>
 <?php include('./db_connect.php'); ?>
@@ -37,32 +37,122 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
 	#login-right{
 		position: absolute;
 		right:0;
+		padding-top:20px;
 		width:40%;
 		height: calc(100%);
-		background:white;
+		background:#E8EDF2;
 		display: flex;
 		align-items: center;
+		flex-direction: column;
+		
+
+		
 	}
 	#login-left{
 		position: absolute;
 		left:0;
 		width:60%;
 		height: calc(100%);
-		background:#00000061;
+		background:#E8EDF2;
 		display: flex;
 		align-items: center;
 	}
 	#login-right .card{
 		margin: auto
 	}
-	.logo {
-    margin: auto;
-    font-size: 8rem;
-    background: white;
-    padding: .5em 0.8em;
-    border-radius: 50% 50%;
-    color: #000000b3;
+    .center {
+		
+		width: 100%;
+		height: 580px;
+  
 }
+	.admin{
+		top: 20px;
+		border-radius:2px;
+        
+		
+	}
+	.card{
+		box-shadow: 0 50px 50px -50px darkslategray;
+	}
+	div.card div.card-body button{
+		color: white;
+		background-color: #1c1c1e;
+		margin-top:40px;
+		border:none;
+		outline: none;
+		border-radius:5px;
+		
+	}
+	@media (max-width: 760px){
+		#login-left{
+			display: block;
+			width: 100%;
+			height:412px;
+			position: relative;
+		}
+		#login-right {
+			display: flex;
+			padding-bottom:50px;
+			width: 100%;
+	
+			position: relative;
+
+		}
+		#login-right .btn-sm{
+			
+			width:80px;
+
+		}
+	}
+	@media (min-width: 761px) and (max-width: 1229px){
+		#login-left .img{
+			display: block;
+			width:60%;
+			height: auto;			
+			
+		}
+		#login-left {
+			display: block;
+			width: 100%;
+			
+			
+		}
+		#login-right .admin{
+			display: block;
+			width: 20%;
+			height: auto;
+			margin-top:5px;
+		}
+		#login-right .card{
+			display: block;
+			
+			
+		}
+		
+	}
+	@media (max-width: 420px){
+		#login-left .img{
+			box-sizing: border-box;
+		}
+		#login-right .card-body{
+			padding: 10px;
+			box-sizing: border-box;
+			
+		}
+	}
+	@media (min-width: 1230px){
+		#login-left .img{
+			width: 100%;
+			height: auto;
+			
+		}
+		#login-right .card{
+			height: 50%;
+			
+		}
+	}
+	
 </style>
 
 <body>
@@ -70,12 +160,18 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
 
   <main id="main" class=" bg-dark">
   		<div id="login-left">
-  			<div class="logo">
-  				<span class="fa fa-coins"></span>
-  			</div>
+  			
+			<div class="img">
+  				<img src="iiitl.jpg"  class="center"  >
+				</div>
+  			
   		</div>
   		<div id="login-right">
-  			<div class="card col-md-8">
+		<div class="admin" >
+		     <img src="admin_logo.png" width="100px" >
+		   
+		   </div>
+  			<div class="card col-md-7">
   				<div class="card-body">
   					<form id="login-form" >
   						<div class="form-group">
@@ -86,7 +182,7 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
   							<label for="password" class="control-label">Password</label>
   							<input type="password" id="password" name="password" class="form-control">
   						</div>
-  						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button></center>
+  						<center><button class="btn-sm btn-block btn-wave col-md-4 ">Login</button></center>
   					</form>
   				</div>
   			</div>
